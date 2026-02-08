@@ -150,6 +150,20 @@
       bindings = <&studio_unlock>;
     };
   };
+ macros {
+        alt_dot: alt_dot {
+            compatible = "zmk,behavior-macro";
+            wait-ms = <10>;
+            tap-ms = <5>;
+            #binding-cells = <0>;
+            bindings
+                = <¯o_press &kp RALT>
+                , <¯o_tap &kp KP_N0>
+                , <¯o_tap &kp KP_N4>
+                , <¯o_tap &kp KP_N6>
+                , <¯o_release &kp RALT>;
+        };
+    };
   chosen {
     zmk,physical-layout = &charybdis_5col_layout;
   };
@@ -160,9 +174,9 @@
     Base {
       display-name = "Base";
       bindings = <
-&kp Q        &kp W        &kp E           &kp R        &kp T                     &kp Y                &kp U                      &kp I          &kp O         &kp P           
-        &hml LGUI A  &hml LALT S  &hml LSHFT D    &hml LCTRL F &kp G                     &kp H                &hmr RCTRL J               &hmr RSHFT K   &hmr RALT L   &hmr LGUI SEMI 
-        &kp Z        &mt LC(X) X  &mt LC(C) C     &kp V        &kp B               &kp N                &kp M                      &kp COMMA      &kp DOT       &kp FSLH      
+        &kp Q        &kp W        &kp E           &kp R        &kp T               &kp Y                &kp U                      &kp I          &kp O         &kp P           
+        &hml LGUI A  &hml LALT S  &hml LSHFT D    &hml LCTRL F &kp G               &kp H                &hmr RCTRL J               &hmr RSHFT K   &hmr RALT L   &hmr LGUI SEMI 
+        &kp Z        &kp X         &kp C          &kp V        &kp B               &kp N                &kp M                      &kp COMMA      &kp DOT       &kp FSLH      
                                        &kp LCTRL    &mo 2     &mt LGUI RET          &lt NUMBER SPACE       &kp BSPC
       >;
     };
@@ -203,7 +217,7 @@
               &trans       &trans       &trans        &trans        &trans               &kp PSCRN        &kp F7   &kp F8   &kp F9       &kp F12
               &kp LGUI     &kp LALT     &kp LCTRL     &kp LSHFT     &trans               &kp SLCK         &kp F4   &kp F5   &kp F6       &kp F11
               &trans       &trans       &trans        &trans        &trans               &kp PAUSE_BREAK  &kp F1   &kp F2   &kp F3       &kp F10
-                                        &trans        &trans        &trans               &trans           &trans
+                                        &trans        &trans        &trans               &trans           &alt_dot
       >;
     };
 
@@ -228,6 +242,7 @@
     };
   };
 };
+
 
 
 
