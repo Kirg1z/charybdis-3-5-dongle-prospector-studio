@@ -122,8 +122,8 @@
       require-prior-idle-ms = <2000>;
     };
     combo_normal {
-      key-positions = <7 8>;
-      bindings = <&to BASE>;
+      key-positions = <11 12>;
+      bindings = <&mkp LCLK>;
     };
     combo_fn {
       key-positions = <27 28>;
@@ -135,15 +135,15 @@
     };
     combo_esc {
       key-positions = <1 2>;
-      bindings = <&kp ESCAPE>;
+      bindings = <&kp CAPSLOCK>;
     };
     combo_tab {
       key-positions = <2 3>;
       bindings = <&kp TAB>;
     };
     combo_cdel {
-      key-positions = <11 12>;
-      bindings = <&kp LC(BACKSPACE)>;
+      key-positions = <21 22>;
+      bindings = <&mkp RCLK>;
     };
     combo_unlock {
       key-positions = <0 4>;
@@ -228,6 +228,7 @@
     };
   };
 };
+
 
 
 

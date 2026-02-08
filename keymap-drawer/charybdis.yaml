@@ -190,17 +190,17 @@ combos:
   k: {t: Reset, h: toggle}
 - p: [32, 33]
   k: BOOT LDR
-- p: [7, 8]
-  k: {t: Base, h: toggle}
+- p: [11, 12]
+  k: L CLK
 - p: [27, 28]
   k: {t: Function, h: sticky}
 - p: [5, 9]
   k: {t: Game, h: toggle}
 - p: [1, 2]
-  k: ESCAPE
+  k: CAPSLOCK
 - p: [2, 3]
   k: TAB
-- p: [11, 12]
-  k: Ctl+ BACK SPACE
+- p: [21, 22]
+  k: R CLK
 - p: [0, 4]
   k: ZMK Studio
