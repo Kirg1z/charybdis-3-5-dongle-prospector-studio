@@ -131,7 +131,7 @@
     };
     combo_genshin {
       key-positions = <7 8>;
-      bindings = <&kp C_AL_MY_COMPUTER>;
+      bindings = <&kp LG(E)>;
     };
     combo_esc {
       key-positions = <1 2>;
@@ -163,7 +163,7 @@
               &kp Q        &kp W        &kp E         &kp R           &kp T               &kp Y            &kp U         &kp I         &kp O        &kp P  
               &hml LGUI A  &hml LALT S  &hml LCTRL D  &hml LSHFT F    &kp G               &kp H            &hml RSHFT J  &hml RCTRL K  &hml RALT L  &hml RGUI SEMICOLON  
               &lt MOUSE Z  &kp X        &kp C         &kp V           &kp B               &kp N            &kp M         &kp COMMA     &kp DOT      &lt MOUSE FLSH
-                                        &mo 2         &lt GAME SPACE  &lt FUNCTION TAB    &lt SYMBOL ENTER &lt NUMBER BSPC
+                                        &mo 2         &kp SPACE       &kp TAB             &kp ENTER        &kp BSPC
       >;
     };
 
@@ -228,6 +228,7 @@
     };
   };
 };
+
 
 
 
