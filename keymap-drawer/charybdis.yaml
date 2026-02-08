@@ -22,8 +22,8 @@ layers:
   - {t: L, h: RALT}
   - {t: ;, h: LGUI}
   - Z
-  - {t: X, h: Ctl+ X}
-  - {t: C, h: Ctl+ C}
+  - X
+  - C
   - V
   - B
   - N
@@ -179,7 +179,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
   Game: [ESCAPE, Q, W, E, R, '', '', '', '', '', LCTRL, A, S, D, F, '', '&mkp MB1', '&mkp MB2', '&mkp MB3', '', LSHIFT, Z, X, C, V, '1', '2', '3', '4', '5', LALT,
     SPACE, M, T, B]
   Reset: ['', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', BOOT LDR, BOOT LDR, '']
