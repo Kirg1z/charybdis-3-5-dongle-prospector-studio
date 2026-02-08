@@ -194,8 +194,8 @@ combos:
   k: L CLK
 - p: [27, 28]
   k: {t: Function, h: sticky}
-- p: [5, 9]
-  k: {t: Game, h: toggle}
+- p: [7, 8]
+  k: WINDOW
 - p: [1, 2]
   k: CAPSLOCK
 - p: [2, 3]
