@@ -145,41 +145,41 @@ layers:
   - {type: held}
   - ''
   Function:
-  - Ctl+Alt+ DEL
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - PSCRN
   - F7
   - F8
   - F9
-  - F10
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - DEV TOOLS
+  - LGUI
+  - LALT
+  - LCTRL
+  - LSHFT
+  - {t: ▽, type: trans}
+  - SLCK
   - F4
   - F5
   - F6
   - F11
-  - ''
-  - LCTRL
-  - LSHFT
-  - LALT
-  - LGUI
-  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - PAUSE BREAK
   - F1
-  - F2
-  - F3
-  - DEV TOOLS
-  - ''
-  - ''
-  - {type: held}
-  - {type: held}
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - {t: F2, type: held}
+  - {t: F3, type: held}
+  - F10
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   Game: [ESCAPE, Q, W, E, R, '', '', '', '', '', LCTRL, A, S, D, F, '', '&mkp MB1', '&mkp MB2', '&mkp MB3', '', LSHIFT, Z, X, C, V, '1', '2', '3', '4', '5', LALT,
     SPACE, M, T, B]
   Reset: ['', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', BOOT LDR, BOOT LDR, '']
