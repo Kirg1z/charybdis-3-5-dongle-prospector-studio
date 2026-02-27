@@ -31,8 +31,8 @@ layers:
   - ','
   - .
   - /
-  - LCTRL
-  - Symbol
+  - Function
+  - {t: SPACE, h: Symbol}
   - {t: RET, h: LGUI}
   - {t: SPACE, h: Number}
   - BSPC
@@ -172,10 +172,10 @@ layers:
   - {t: ▽, type: trans}
   - PAUSE BREAK
   - F1
-  - {t: F2, type: held}
-  - {t: F3, type: held}
+  - F2
+  - F3
   - F10
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
