@@ -13,29 +13,29 @@ layers:
   - P
   - {t: A, h: LGUI}
   - {t: S, h: LALT}
-  - {t: D, h: LSHFT}
-  - {t: F, h: LCTRL}
+  - {t: D, h: LCTRL}
+  - {t: F, h: LSHFT}
   - G
   - H
-  - {t: J, h: RCTRL}
-  - {t: K, h: RSHFT}
+  - {t: J, h: RSHFT}
+  - {t: K, h: RCTRL}
   - {t: L, h: RALT}
-  - {t: ;, h: LGUI}
-  - Z
-  - {t: X, h: Ctl+ X}
-  - {t: C, h: Ctl+ C}
+  - {t: ;, h: RGUI}
+  - {t: Z, h: Mouse}
+  - X
+  - C
   - V
-  - {t: B, h: Ctl+ V}
+  - B
   - N
   - M
   - ','
   - .
-  - /
-  - LCTRL
-  - Symbol
-  - {t: RET, h: LGUI}
-  - {t: SPACE, h: Number}
-  - BSPC
+  - {t: /, h: Mouse}
+  - Navigation
+  - {t: SPACE, h: Navigation}
+  - {t: TAB, h: Function}
+  - {t: ENTER, h: Symbol}
+  - {t: BSPC, h: Number}
   Mouse:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -49,158 +49,202 @@ layers:
   - {t: ▽, type: trans}
   - LGUI
   - LALT
-  - LSHFT
   - LCTRL
+  - LSHFT
+  - {t: Base, h: toggle}
+  - VOL UP
+  - RSHFT
+  - RCTRL
+  - RALT
+  - RGUI
+  - {type: held}
+  - Ctl+ X
+  - Ctl+ C
+  - Ctl+ V
   - {t: ▽, type: trans}
+  - VOL DN
+  - PLAY PAUSE
+  - ''
+  - {t: Navigation, h: toggle}
   - {t: ▽, type: trans}
-  - '&mkp MB1'
-  - '&mkp MB2'
-  - '&mkp MB3'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - Number
-  - Symbol
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '&mkp MB1'
-  - '&mkp MB2'
-  - '&mkp MB3'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Navigation
+  - L CLK
+  - R CLK
+  - M CLK
+  - DELETE
   Symbol:
-  - ''
-  - ''
-  - '{'
-  - '}'
-  - '|'
-  - '`'
   - '~'
-  - <
-  - '>'
+  - '&'
+  - '*'
+  - (
+  - '}'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '{'
+  - $
+  - '%'
+  - ^
+  - +
+  - BT CLR ALL
+  - RSHIFT
+  - RCTRL
+  - RALT
+  - RGUI
+  - '"'
+  - '!'
+  - '@'
+  - '#'
   - \
-  - ''
-  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - (
   - )
-  - ':'
-  - +
-  - '-'
-  - /
-  - '*'
-  - ''''
-  - ''
-  - ''
-  - '['
-  - ']'
-  - '?'
-  - '&'
-  - '='
   - _
-  - .
-  - '"'
-  - ''
   - {type: held}
   - {t: ▽, type: trans}
-  - ''
-  - ''
   Number:
-  - ''
+  - '`'
   - '7'
   - '8'
   - '9'
-  - ''
-  - ''
-  - PG UP
-  - UP
-  - PG DN
-  - ''
-  - LGUI
-  - {t: '4', h: LALT}
-  - {t: '5', h: LSHFT}
-  - {t: '6', h: LCTRL}
-  - ''
-  - ''
-  - {t: LEFT, h: RCTRL}
-  - {t: DOWN, h: RSHFT}
-  - {t: RIGHT, h: RALT}
+  - ']'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '['
+  - '4'
+  - '5'
+  - '6'
+  - '='
+  - {t: ▽, type: trans}
+  - RSHFT
+  - RCTRL
+  - RALT
   - RGUI
-  - ''
+  - ''''
   - '1'
   - '2'
   - '3'
-  - Ctl+ -
-  - Ctl+ =
-  - HOME
+  - KP DIVIDE
   - {t: ▽, type: trans}
-  - END
-  - ''
-  - .
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - KP DOT
   - '0'
-  - SPACE
+  - '-'
+  - {t: ▽, type: trans}
   - {type: held}
+  Navigation:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - LGUI
+  - LALT
+  - LCTRL
+  - LSHFT
+  - {t: ▽, type: trans}
+  - LEFT
+  - DOWN
+  - UP
+  - RIGHT
+  - ESC
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - HOME
+  - PAGE DOWN
+  - PAGE UP
+  - END
+  - APP
+  - {t: Base, h: toggle, type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ENTER
+  - DELETE
   Function:
-  - Ctl+Alt+ DEL
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - KP NUM
+  - ''
+  - PSCRN
   - F7
   - F8
   - F9
-  - F10
+  - DEV TOOLS
+  - LGUI
+  - LALT
+  - LCTRL
+  - LSHFT
   - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - CAPSLOCK
   - F4
   - F5
   - F6
   - F11
-  - ''
-  - LCTRL
-  - LSHFT
-  - LALT
-  - LGUI
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - ''
   - F1
   - F2
   - F3
-  - DEV TOOLS
-  - ''
-  - ''
+  - F10
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
-  - {type: held}
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  Game: [ESCAPE, Q, W, E, R, '', '', '', '', '', LCTRL, A, S, D, F, '', '&mkp MB1', '&mkp MB2', '&mkp MB3', '', LSHIFT, Z, X, C, V, '1', '2', '3', '4', '5', LALT,
-    SPACE, M, T, B]
+  - Ctl+ KP MINUS
+  - '|'
   Reset: ['', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', BOOT LDR, BOOT LDR, '']
 combos:
 - p: [20, 24]
   k: {t: Reset, h: toggle}
-- p: [25, 29]
-  k: {t: Reset, h: toggle}
 - p: [32, 33]
   k: BOOT LDR
-- p: [7, 8]
-  k: {t: Base, h: toggle}
-- p: [27, 28]
-  k: {t: Function, h: sticky}
-- p: [5, 9]
-  k: {t: Game, h: toggle}
-- p: [1, 2]
-  k: ESCAPE
-- p: [2, 3]
-  k: TAB
 - p: [11, 12]
-  k: Ctl+ BACK SPACE
+  k: L CLK
+- p: [21, 22]
+  k: R CLK
+- p: [1, 2]
+  k: CAPSLOCK
+- p: [7, 8]
+  k: WINDOW
+- p: [20, 21]
+  k: Alt+ F4
+- p: [28, 29]
+  k: Alt+ F4
+- p: [17, 18]
+  k: Alt+ LEFT
+- p: [27, 28]
+  k: Alt+ UP
+- p: [26, 27]
+  k: Gui+ SPACE
+- p: [12, 13]
+  k: Ctl+ C
+- p: [2, 3]
+  k: Ctl+ X
+- p: [22, 23]
+  k: Ctl+ V
 - p: [0, 4]
   k: ZMK Studio
