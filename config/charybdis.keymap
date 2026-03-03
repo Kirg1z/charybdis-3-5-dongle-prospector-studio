@@ -104,87 +104,8 @@
     };
   };
 
-  combos {
-    compatible = "zmk,combos";
-    timeout-ms = <20>;
-    require-prior-idle-ms = <250>;
 
-    combo_reset_layer_left {
-      key-positions = <20 24>;
-      bindings = <&to RESET>;
-    };
-
-    combo_reset_central {
-      key-positions = <32 33>;
-      bindings = <&bootloader>;
-      require-prior-idle-ms = <2000>;
-    };
-
-    combo_l_clk {
-      key-positions = <11 12>;
-      bindings = <&mkp LCLK>;
-    };
-
-    combo_r_clk {
-      key-positions = <21 22>;
-      bindings = <&mkp RCLK>;
-    };
-
-    combo_CAPS {
-      key-positions = <1 2>;
-      bindings = <&kp CAPSLOCK>;
-    }; 
-
-    combo_new_window {
-      key-positions = <7 8>;
-      bindings = <&kp LG(E)>;
-    };
-
-    combo_close_1 {
-      key-positions = <20 21>;
-      bindings = <&kp LA(F4)>;
-    };
-
-    combo_close_2 {
-      key-positions = <28 29>;
-      bindings = <&kp LA(F4)>;
-    };
-
-    combo_back {
-      key-positions = <17 18>;
-      bindings = <&kp LA(LEFT)>;
-    };
-
-    combo_up_folder {
-      key-positions = <27 28>;
-      bindings = <&kp LA(UP)>;
-    };
-
-    combo_luanguage {
-      key-positions = <26 27>;
-      bindings = <&kp LG(SPACE)>;
-    };
-
-    combo_copy {
-      key-positions = <12 13>;
-      bindings = <&kp LC(C)>;
-    };
-
-    combo_cut {
-      key-positions = <2 3>;
-      bindings = <&kp LC(X)>;
-    };
-
-    combo_paste {
-      key-positions = <22 23>;
-      bindings = <&kp LC(V)>;
-    };
-
-    combo_unlock {
-      key-positions = <0 4>;
-      bindings = <&studio_unlock>;
-    };
-  };
+#include "combos.dtsi"
 
   chosen {
     zmk,physical-layout = &charybdis_5col_layout;
@@ -264,6 +185,7 @@
     };
   };
 };
+
 
 
 
